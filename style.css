@@ -1,0 +1,73 @@
+body{
+   
+    background-image: linear-gradient(to right, #2fa9e2, #4f5462);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.myButton1{
+    background-color: #2fa9e2;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.myButton2{
+    background-color: #4f5462;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.copycode{
+    background: transparent;
+    border: none;   
+    display: flex;
+    margin: auto;
+    margin-top:2rem;
+    margin-bottom:2rem;
+   
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+    user-select: none;  
+    
+}
+.copycode:hover{
+    cursor: pointer;
+}
+
+.content{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    user-select: none;
+    
+}
